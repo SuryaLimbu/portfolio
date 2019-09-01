@@ -1,0 +1,239 @@
+ :root {
+     --dark: #22222;
+ }
+
+ body {
+    font-family: 'Ubuntu', sans-serif;
+ }
+
+ .navbar {
+     background: linear-gradient(to right, #3e2b96, #1e67bd);
+     background-position: center;
+     background-size: cover;
+     /* padding-left: 10%;
+     padding-right: 10%; */
+
+ }
+
+ .navbar-nav .nav-item {
+     padding: 0 3%;
+     font-family: 'Ubuntu', sans-serif;
+ }
+
+ .navbar-nav .nav-item a {
+     font-size: 18px;
+     text-transform: uppercase;
+     color: white !important;
+ }
+ .navbar-nav .nav-item a:hover{
+     opacity: 0.8 !important;
+ }
+
+
+ .logo {
+     height: 50px;
+ }
+
+ .col-md-7 {
+     top: 10rem;
+     left: -10rem;
+     vertical-align: middle;
+     align-self: center;
+
+ }
+ .col-md-7 .banner h5{
+    opacity: 0.8;
+}
+
+ .col-md-7 .banner p{
+     opacity: 0.5;
+     
+ }
+
+ .col-md-7 h1 {
+     /* font-family: 'Exo 2', sans-serif; */
+     /* font-family: 'Cairo', sans-serif; */
+     font-family: 'Yatra One', cursive;
+     font-size: bold;
+ }
+
+ .section {
+     width: 100%;
+     height: 60rem;
+     color: #F9F9FF;
+     /* background-color: #8391FF; */
+     background-image: url(img/Banner.png);
+     background-position: center;
+     background-size: cover;
+
+ }
+
+ .about {
+     padding:2% 0;
+     
+ }
+
+ .about .col-md-12 {
+     padding-bottom: 5%;
+
+ }
+
+ .about .col-md-12 h1 {
+     font-weight: bold;
+ }
+
+ .about .about-brif {
+     padding: 2%;
+ }
+ .about .col-md-4{
+     padding-left: 1%;
+ }
+ .about .col-md-4 .card{
+     border-radius: 5%;
+     width: 400px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     
+ }
+ /* skill bar */
+ .progress-title{
+    font-size: 17px;
+    font-weight: 700;
+    color: #666;
+    margin: 0 0 20px;
+}
+.progress{
+    height: 3px;
+    background: #e4e3e3;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 30px;
+    overflow: visible;
+}
+.progress .progress-bar{
+    box-shadow: none;
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s;
+}
+.progress .progress-bar:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 4px solid #fff;
+    position: absolute;
+    top: -8px;
+    right: 4px;
+    transform: rotate(45deg);
+}
+.progress.pink .progress-bar:after{
+    background: #f72754;
+    outline: 2px solid #f72754;
+}
+.progress.yellow .progress-bar:after{
+    background: #ffae03;
+    outline: 2px solid #ffae03;
+}
+.progress.blue .progress-bar:after{
+    background: #2272ff;
+    outline: 2px solid #2272ff;
+}
+.progress.green .progress-bar:after{
+    background: #00be69;
+    outline: 2px solid #00be69;
+}
+@-webkit-keyframes animate-positive {
+    0% { width: 0; }
+}
+@keyframes animate-positive {
+    0% { width: 0; }
+}
+
+
+
+ .qualification {
+     background-color: #F9F9FF;
+     padding: 2%;
+ }
+ .qualification .col-md-12{
+    padding-bottom: 5%;
+}
+.qualification .col-md-6{
+    padding-bottom: 2%;
+
+}
+.qualification .col-md-6 .card:hover{
+    background: linear-gradient(to right, #3e2b96, #1e67bd);
+    color: white;
+}
+.qualification .col-md-12 h3 {
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+}
+
+
+ footer .footer {
+     background: linear-gradient(to right, #3e2b96, #1e67bd);
+     color: white;
+     padding: 2%;
+ }
+
+ footer img {
+     vertical-align: center;
+     width: 100%;
+
+ }
+ footer .footer-social a {
+     padding-left:5%;
+     font-size: 20px;
+     
+ }
+ footer .footer-social a:hover{
+     color: white;
+ }
+ footer .col-md-3{
+     padding-left: 10%;
+ }
+
+ @media only screen and (max-width: 768px) {
+     /* For Mobile phones: */
+     
+     /* .navbar{
+         background: none;
+         background: darksalmon;
+     } */
+     .navbar-toggler{
+         color: white;
+
+     }
+     .section{
+        background: linear-gradient(to right, #3e2b96, #1e67bd);
+        height: 30rem;
+     }
+     .col-md-7 {
+         
+        top: 4rem;
+        left: 0;
+        vertical-align: middle;
+        align-self: center;
+   
+    }
+    .about .col-md-4 .card{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    footer .footer-social  {
+    padding-left: 1rem;
+     
+        
+    }
+    footer .footer-social a{
+        padding-right: 2rem;
+        color: white;
+    }
+   
+    footer .col-md-3{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+ }
