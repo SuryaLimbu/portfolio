@@ -4,55 +4,24 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Responsive web page</title>
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Surya man kedem</title>
+    <script src="https://kit.fontawesome.com/f9ffa7a1c0.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Yatra+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <!-- <nav class="navbar  navbar-expand-md bg-dark navbar-dark ">
-
-        <a class="navbar-brand" href="#">
-            <img class="logo" src="img/logo.png">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="mr-auto"></div>
-            <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Education</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-
-            </ul>
-
-        </div>
-
-    </nav> -->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="#home">
                 <img class="logo" src="img/logo.png">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -64,39 +33,67 @@
                 <div class="mr-auto"></div>
                 <ul class="navbar-nav  ">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#home"><i class="fa fa-home"></i> Home <span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about"> <i class="fa fa-address-card"></i> About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Education</a>
+                        <a class="nav-link" href="#"> <i class="fas fa-briefcase"></i> Portfolio</a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#education"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                            Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"> <i class="fa fa-address-book"></i> Contact</a>
                     </li>
 
                 </ul>
-
             </div>
+        </div>
     </nav>
-    </nav>
 
 
 
-    <section class="section">
+    <section class="section" id="home">
+
 
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-7 col-sm-12">
                     <div class="banner">
-                        <h3>Namaste, i'm </h3>
-                        <h1>Surya Man Kedem</h1>
-                        <h5>UI Designer/Web Developer in Nepal</h5>
-                        <p>You will begin to realise why this exercise is called the Dickens Pattern
-                            (with reference to the ghost showing Scrooge some different futures)</p>
-                        <button class="btn btn-light">View Profile</button>
+                        <h3>नमस्ते, म</h3>
+                        <h1>सुर्य मान केदेम</h1>
+                        <h5>Android | UI Designer | Web Developer in Nepal</h5>
+                        <p>
+                            <i class="fab fa-html5"></i>
+
+                            <i class="fab fa-css3 "></i>
+                            <i class="fab fa-java"></i>
+                            <i class="fab fa-adobe"></i>
+                            <i class="fab fa-android" aria-hidden="true"></i>
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <i class="fab fa-linux" aria-hidden="true"></i>
+
+                        </p>
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                            <i class="fa fa-address-book"></i> Contact</button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="https://www.facebook.com/suryaman.kedem"><i
+                                    class="fab fa-facebook"></i> Official Facebook</a>
+                            <a class="dropdown-item" href="https://www.instagram.com/surya_kedem/"><i
+                                    class="fab fa-instagram"></i> Official Instagram</a>
+                            <a class="dropdown-item" href="https://twitter.com/kedemkanxa"><i
+                                    class="fab fa-twitter"></i> Twitter</a>
+                            <a class="dropdown-item" href="https://github.com/SuryaLimbu?tab=repositories"><i
+                                    class="fab fa-github"> Github</i></a>
+                            <a class="dropdown-item" href="https://www.linkedin.com/in/surya-kedem-986173186/"><i
+                                    class="fab fa-linkedin"> Linkedin</i></a>
+
+
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-5 col-sm-12"></div>
@@ -106,7 +103,7 @@
 
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-12">
@@ -115,10 +112,10 @@
                 <div class="col-md-8 about-brif col-sm-12">
                     <div class="row">
                         <div class="col-md-10">
-                            <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher
-                                conduct standards especially in the workplace.
-                                That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.
-                                inappropriate behavior is often laughed.</p>
+                            <p>Hello, My name is surya man kedem from Taplejung, Nepal. I am an currently student of
+                                NAMI college in Jorpaty, Kathmandu . which is affiliated with Northampton university. i
+                                am not an export
+                                programmer but currently learning continuously</p>
                         </div>
 
                         <div class="col-md-10 animate-box fadeInRight animated" data-animate-effect="fadeInRight">
@@ -135,63 +132,62 @@
                             <div class="progress-wrap">
                                 <h3 class="progress-title">CSS3 - 80%</h3>
                                 <div class="progress yellow">
-                                    <div class="progress-bar" role="progressbar"
-                                        style="width:80%; background:#ffae03;">
+                                    <div class="progress-bar" role="progressbar" style="width:80%; background:#ffae03;">
 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-10 animate-box fadeInRight animated" data-animate-effect="fadeInRight">
+                            <div class="progress-wrap">
+                                <h3 class="progress-title">jQuery - 60%</h3>
+                                <div class="progress blue">
+                                    <div class="progress-bar" role="progressbar" style="width:60%; background:#2405b1;">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-10 animate-box fadeInRight animated" data-animate-effect="fadeInRight">
+                            <div class="progress-wrap">
+                                <h3 class="progress-title">Photoshop - 50%</h3>
+                                <div class="progress green">
+                                    <div class="progress-bar" role="progressbar" style="width:50%; background:#085c21;">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-10 animate-box fadeInRight animated" data-animate-effect="fadeInRight">
+                            <div class="progress-wrap">
+                                <h3 class="progress-title">UI Design - 40%</h3>
+                                <div class="progress pink">
+                                    <div class="progress-bar" role="progressbar" style="width:40%; background:#e71809;">
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-10 animate-box fadeInRight animated" data-animate-effect="fadeInRight">
-                        <div class="progress-wrap">
-                            <h3 class="progress-title">jQuery - 60%</h3>
-                            <div class="progress blue">
-                                <div class="progress-bar" role="progressbar" style="width:60%; background:#2405b1;">
 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-10 animate-box fadeInRight animated" data-animate-effect="fadeInRight">
-                        <div class="progress-wrap">
-                            <h3 class="progress-title">Photoshop - 50%</h3>
-                            <div class="progress green">
-                                <div class="progress-bar" role="progressbar" style="width:50%; background:#085c21;">
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-10 animate-box fadeInRight animated" data-animate-effect="fadeInRight">
-                        <div class="progress-wrap">
-                            <h3 class="progress-title">UI Design - 40%</h3>
-                            <div class="progress pink">
-                                <div class="progress-bar" role="progressbar" style="width:40%; background:#e71809;">
-
-                                </div>
-                            </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="card">
+                        <div class="card-img-top">
+                            <img src="img/about.jpg" alt="About photo" class="img-fluid" </div> <div class="card-body">
+                            <h4>Surya Man Kedem</h4>
+                            <p>Android | UI Designer | Web Developer in Nepal</p>
+                            <p></p>
+                            <button class="btn btn-success">Hire me</button>
                         </div>
                     </div>
                 </div>
-
             </div>
-            <div class="col-md-4 col-sm-12">
-                <div class="card">
-                    <div class="card-img-top">
-                        <img src="img/about.jpg" alt="About photo" class="img-fluid" </div> <div class="card-body">
-                        <h4>Surya Man Kedem</h4>
-                        <p>UI Designer/Web Developer in Nepal</p>
-                        <p></p>
-                        <button class="btn btn-light">Hire me</button>
-                    </div>
-                </div>
-            </div>
-        </div>
         </div>
         </div>
         </div>
     </section>
-    <section class="qualification">
+    <section class="qualification" id="education">
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -200,33 +196,68 @@
                 <div class="col-md-6 col-sm-12">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="title"> <i class="fas fa-school"></i>High school secondary education</h4>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#high">
+                                            <i class="fas fa-school"></i> High school secondary education</a>
+                                    </h4>
+                                </div>
+                                <div id="high" class="panel-collapse collapse">
+                                    <div class="panel-body">I just finish my high school from Dharan Secondary School
+                                        from Dharan-4 ,Sunsari</div>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
                 </div>
+
+
                 <div class="col-md-6 col-sm-12">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="title">Diploma in computer science</h4>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#diploma">
+                                            <i class="fas fa-school"></i> Diplomah in Computer Science</a>
+                                    </h4>
+                                </div>
+                                <div id="diploma" class="panel-collapse collapse">
+                                    <div class="panel-body">I just finish my DIplomah from Dharan Secondary School from
+                                        Dharan-4 ,Sunsari</div>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
-
                 </div>
+
                 <div class="col-md-6 col-sm-12">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="title">Bachlor in Software Engineering</h4>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#batchlor">
+                                            <i class="fas fa-school"></i> Batchlor in Software Engineering</a>
+                                    </h4>
+                                </div>
+                                <div id="batchlor" class="panel-collapse collapse">
+                                    <div class="panel-body">I am currently studying Software Engineering in NAMI college
+                                        which is affiliated with Northapton University of UK</div>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
-
                 </div>
+
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container ">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -242,7 +273,7 @@
                             <h4><i class="fa fa-phone"></i>9844690018</h4>
                             <p>24 hour avilable</p>
                         </div>
-                        <div class="col-md-12">
+                        <div class="col-md-12 col-sm-12">
                             <h5><i class="fa fa-envelope"></i> suryamankedem@gmail.com</h5>
                             <p>Send me your query anytime</p>
                         </div>
@@ -252,7 +283,22 @@
                 <div class="col-md-8 col-sm-12">
                     <div class="row">
                         <div class="col-md-6">
-                            <form action="#">
+                            <?php 
+                            //if "email" variable is filled out, send email  
+                             if (isset($_REQUEST['email']))  {    
+                                  //Email information   
+                                  $admin_email = "suryamankedem@gmail.com"; 
+                                  $name = $_REQUEST['name']; 
+                                   $email = $_REQUEST['email'];   
+                                   $subject = $_REQUEST['subject'];  
+                                   $comment = $_REQUEST['comment'];      
+                                   //send email   
+                                   mail($admin_email, "$name", "$subject", $comment, "From:" . $email);      
+                                   //Email response   
+                                   echo "Thank you for contacting us!";   }     
+                                    //if "email" variable is not filled out, display the form  
+                                     else  { ?>
+                            <form method="post">
                                 <form class="form-group">
                                     <label for="contact"></label>
                                     <input id="name" type="text" class="form-control" placeholder="Enter your Name">
@@ -261,26 +307,24 @@
                                     <br>
                                     <input type="text" class="form-control" placeholder="Enter Subject">
 
+                                    <textarea name="message" class="form-control" row="1"
+                                        placeholder="Enter Your message" style="height: 140px"></textarea>
+                                    <button class="btn btn-info" type="submit" style="float: right">Submit</button>
+
+
                                 </form>
+                                <?php   } ?>
                         </div>
 
-                        <div class="col-md-6 col-sm-12">
-                            <div class="form-group">
-                                <textarea name="message" class="form-control" row="1" placeholder="Enter Your message"
-                                    style="height: 140px"></textarea>
 
-                            </div>
-                            <div class="col-md-12">
-                                <button class="btn btn-light" type="submit" style="float: right">Send Message</button>
-                            </div>
-
-                        </div>
 
                     </div>
+
                 </div>
-
-
             </div>
+
+
+        </div>
         </div>
     </section>
 
@@ -297,10 +341,12 @@
 
                         <h4>About Us</h4>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore dolore magna aliqua.
+                        <p>Hello, My name is surya man kedem from Taplejung, Nepal. I am an currently student of
+                            NAMI college in Jorpaty, Kathmandu . which is affiliated with Northampton university. i am
+                            not an export
+                            programmer but currently learning continuously
 
-                            Copyright ©2019 All rights reserved | This template is made with by Colorlib
+
                         </p>
 
                     </div>
@@ -312,10 +358,12 @@
                         <div class="footer-social d-flex allign-items-center">
 
 
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/suryaman.kedem"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/surya_kedem/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://twitter.com/kedemkanxa"><i class="fab fa-twitter"></i></a>
+                            <a href="https://github.com/SuryaLimbu?tab=repositories"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/surya-kedem-986173186/"><i
+                                    class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12 text-center">
@@ -325,6 +373,10 @@
                         </p>
 
                     </div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <h5><i class="fa fa-copyright" aria-hidden="true"></i>Copyright ©2019 All rights reserved | This
+                        site is made with by Own</h5>
                 </div>
             </div>
         </div>
@@ -340,5 +392,23 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<script>
+    jQuery(function ($) {
+
+        // The speed of the scroll in milliseconds
+        var speed = 1000;
+
+        // Find links that are #anchors and scroll to them
+        $('a[href^=#]')
+            .not('.lp-pom-form .lp-pom-button')
+            .unbind('click.smoothScroll')
+            .bind('click.smoothScroll', function (event) {
+                event.preventDefault();
+                $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, speed);
+            });
+    });
+</script>
 
 </html>
